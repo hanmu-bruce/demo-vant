@@ -1,9 +1,6 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <van-nav-bar title="标题" left-arrow fixed />
+  <router-view />
 </template>
 
 <style>
